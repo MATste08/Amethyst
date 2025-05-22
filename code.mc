@@ -1,2 +1,2 @@
-char array message = "Hello World";
-mwrite message;
+char array message = "Hello World"
+mwrite message
