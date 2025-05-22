@@ -12,7 +12,7 @@ Comands:
 - if ( insturction x )
 - mwrite x (write variable x)
 - mread y (scan/read variable x)
-- cascii (allows to unused charcther)
+- cascii (allows to show charcther)
 - cc ( x ) (shows characther with number x)
 - mcuc ( x ) (beep variable x)
 - trick ( You get rick rolled! )
