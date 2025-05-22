@@ -1,2 +1,2 @@
-int message = "Hello World";
+char array message = "Hello World";
 mwrite message;
