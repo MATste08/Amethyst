@@ -17,6 +17,8 @@ Comands:
 - mcuc ( x ) (beep variable x)
 - trick ( You get rick rolled! )
 - play ( play snake game )
+- color x ( x is a name of color or a number. It shows you with mwrite the text but with the chosen color.)
+- wait x ( waits x milisecconds )
   ... more to come, so wait
 
   
