@@ -1,7 +1,10 @@
 # mcprog
 Rights: Stefan Matei Necsulescu
+
 Inspired and work with: Cucuzacu
+
 This is a programing languge. Learn to program in it.
+
 Comands:
 - int (declear a variable)
 - while ( insturction y ) intuction x (execute instuction x while instruction y is true) 
