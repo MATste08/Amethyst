@@ -25,3 +25,5 @@ Comands:
   HOPE TO ENJOY,
   
   BY MATste_08 and CUCUZACU
+
+  HELPED BY: ###### AND CATTUS_GOD
