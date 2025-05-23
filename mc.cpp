@@ -91,6 +91,11 @@ int main()
             fi >> command2 >> command3;
             ints[command2] /= ints[command3];
         }
+        if (!strcmp(command, "mod"))
+        {
+            fi >> command2 >> command3;
+            ints[command2] %= ints[command3];
+        }
         if (!strcmp(command, "write_int"))
         {
             fi >> command2;
@@ -204,6 +209,11 @@ int main()
                         fi >> command2 >> command3;
                         ints[command2] /= ints[command3];
                     }
+                    if (!strcmp(command, "mod"))
+        {
+            fi >> command2 >> command3;
+            ints[command2] %= ints[command3];
+        }
                     if (!strcmp(command, "write_int"))
                     {
                         fi >> command2;
@@ -317,10 +327,10 @@ int main()
                 fi >> command2 >> command3;
                 ints[command2] /= ints[command3];
             }
-            if (!strcmp(command, "divide"))
+            if (!strcmp(command, "mod"))
             {
-                fi >> command2 >> command3 >> command4;
-                ints[command2] = ints[command3] % ints[command4];
+                fi >> command2 >> command3;
+                ints[command2] %= ints[command3];
             }
             if (!strcmp(command, "write_int"))
             {
