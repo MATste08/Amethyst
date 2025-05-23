@@ -1,2 +1,2 @@
-char array message = "Hello World"
-write_int message
+string a = Hello_World!
+write_string a
