@@ -18,14 +18,25 @@ int main()
     std::map <std::string, char> chars;
     std::map <std::string, std::string> strings;
     std::ifstream fi(filename);
-    while (true)
+    while (fi >> command)
     {
-        fi >> command;
-        if (!strcmp(command, "int"))fi >> command2 >> c >> ints[command2];
-        if (!strcmp(command, "int"))fi >> command2 >> c >> ints[command2];
-        if (!strcmp(command, "char")) fi >> command2 >> c >> chars[command2];
-        if (!strcmp(command, "string")) fi >> command2 >> c >> strings[command2];
+        if (!strcmp(command, "int"))
+        {
+            fi >> command2 >> c >> n;
+            ints[command2] = n;
+        }
+        if (!strcmp(command, "char"))
+        {
+            fi >> command2 >> c >> c1;
+            chars[command2] = c1;
+        }
+        if (!strcmp(command, "string"))
+        {
+            fi >> command2 >> c >> command3;
+            strings[command2] = command3;
+        }
         if (!strcmp(command, "nextline")) std::cout << '\n';
+        if (!strcmp(command, "printspace")) std::cout << ' ';
         if (!strcmp(command, "wait"))
         {
             std::cin >> x;
