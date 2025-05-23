@@ -14,6 +14,8 @@ This is a **programing languge**. Learn to **program** in it.
 - **multiply** (*)
 - **divide** (/)
 - **mod** (%)
+- **pow** (^)
+- **sqrt** ( square root )
 - **while** ( instrrction y ) instruction x (execute instruction x while instruction y is true) 
 - **if** ( instruction x )
 - **write x** (write variable x)
