@@ -5,6 +5,7 @@
 #include <map>
 #include <string.h>
 #include <windows.h>
+#include <math.h>
 
 int main()
 {
@@ -95,6 +96,21 @@ int main()
         {
             fi >> command2 >> command3;
             ints[command2] %= ints[command3];
+        }
+        if (!strcmp(command, "equal"))
+        {
+            fi >> command2 >> command3;
+            ints[command2] = ints[command3]);
+        }
+        if (!strcmp(command, "pow"))
+        {
+            fi >> command2 >> command3;
+            ints[command2] = pow(ints[command2], ints[command3]);
+        }
+        if (!strcmp(command, "sqrt"))
+        {
+            fi >> command2;
+            ints[command2] = sqrt(ints[command2]);
         }
         if (!strcmp(command, "write_int"))
         {
@@ -209,11 +225,26 @@ int main()
                         fi >> command2 >> command3;
                         ints[command2] /= ints[command3];
                     }
+                    if (!strcmp(command, "equal"))
+                    {
+                        fi >> command2 >> command3;
+                        ints[command2] = ints[command3]);
+                    }
+                    if (!strcmp(command, "pow"))
+                    {
+                        fi >> command2 >> command3;
+                        ints[command2] = pow(ints[command2], ints[command3]);
+                    }
+                    if (!strcmp(command, "sqrt"))
+                    {
+                        fi >> command2;
+                        ints[command2] = sqrt(ints[command2]);
+                    }
                     if (!strcmp(command, "mod"))
-        {
-            fi >> command2 >> command3;
-            ints[command2] %= ints[command3];
-        }
+                    {
+                        fi >> command2 >> command3;
+                        ints[command2] %= ints[command3];
+                    }
                     if (!strcmp(command, "write_int"))
                     {
                         fi >> command2;
@@ -331,6 +362,21 @@ int main()
             {
                 fi >> command2 >> command3;
                 ints[command2] %= ints[command3];
+            }
+            if (!strcmp(command, "equal"))
+            {
+                fi >> command2 >> command3;
+                ints[command2] = ints[command3]);
+            }
+            if (!strcmp(command, "pow"))
+            {
+                fi >> command2 >> command3;
+                ints[command2] = pow(ints[command2], ints[command3]);
+            }
+            if (!strcmp(command, "sqrt"))
+            {
+                fi >> command2;
+                ints[command2] = sqrt(ints[command2]);
             }
             if (!strcmp(command, "write_int"))
             {
