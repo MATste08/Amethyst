@@ -317,6 +317,11 @@ int main()
                 fi >> command2 >> command3;
                 ints[command2] /= ints[command3];
             }
+            if (!strcmp(command, "divide"))
+            {
+                fi >> command2 >> command3 >> command4;
+                ints[command2] = ints[command3] % ints[command4];
+            }
             if (!strcmp(command, "write_int"))
             {
                 fi >> command2;
