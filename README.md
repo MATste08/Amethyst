@@ -1,4 +1,4 @@
-# mcprog
+**# cmcprog**
 Rights: **Stefan Matei Necsulescu**
 
 Inspired and work with: **Cucuzacu**
