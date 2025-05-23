@@ -68,6 +68,11 @@ int main()
             fi >> command2 >> command3;
             ints[command2] += ints[command3];
         }
+        f (!strcmp(command, "mod"))
+        {
+            fi >> command2 >> command3;
+            ints[command2] = ints[command2] % ints[command3];
+        }
         if (!strcmp(command, "decrease"))
         {
             fi >> command2 >> command3;
