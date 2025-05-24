@@ -22,12 +22,13 @@ This is a **programing languge**. Learn to **program** in it.
 - **read y** (scan/read variable x)
 - **cc ( x )** (shows characther with number x)
 - **beep ( x y )** (beep pitch x duration y)
-- **color x y** ( x is text color, y is background color )
+- **setcolor x y** ( x is text color, y is background color )
 - **wait x** ( waits x milisecconds )
-- **
+- **rect** ( creates a rectangle )
+- **clear** ( clears the screen )
 
   
-  HOPE YOU ENJOY,
+  HOPE TO ENJOY,
   
   **BY MATste_08 and CUCUZACU**
 
