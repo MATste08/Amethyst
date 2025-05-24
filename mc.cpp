@@ -9,6 +9,7 @@
 
 int main()
 {
+    int radius;
     bool abc;
     int i, n, x, y;
     char c, c1;
@@ -84,6 +85,21 @@ int main()
                 for (int j = 0; j < y; j++)
                 {
                         std::cout << char(219) << char(219);
+                }
+                std::cout << std::endl;
+            }
+        }
+        if(!strcmp(command, "cir"))
+        {
+            fi >> radius;
+            for (int i = -radius; i <= radius; i++)
+            {
+                for (int j = -radius; j <= radius; j++)
+                 {
+                    if (j * j + i * i <= radius * radius + radius)
+                        std::cout << char(219)<<char(219);
+                    else
+                        std::cout << "  ";
                 }
                 std::cout << std::endl;
             }
@@ -245,6 +261,21 @@ int main()
         {
 
         }
+                if(!strcmp(command, "cir"))
+        {
+            fi >> radius;
+            for (int i = -radius; i <= radius; i++)
+            {
+                for (int j = -radius; j <= radius; j++)
+                 {
+                    if (j * j + i * i <= radius * radius + radius)
+                        std::cout << char(219)<<char(219);
+                    else
+                        std::cout << "  ";
+                }
+                std::cout << std::endl;
+            }
+        }
         if (!strcmp(command, "add"))
         {
             fi >> command2 >> command3;
@@ -377,6 +408,21 @@ int main()
         {
             fi >> n;
             std::cout << char(n);
+        }
+                if(!strcmp(command, "cir"))
+        {
+            fi >> radius;
+            for (int i = -radius; i <= radius; i++)
+            {
+                for (int j = -radius; j <= radius; j++)
+                 {
+                    if (j * j + i * i <= radius * radius + radius)
+                        std::cout << char(219)<<char(219);
+                    else
+                        std::cout << "  ";
+                }
+                std::cout << std::endl;
+            }
         }
         if(!strcmp(command, "clear"))
         {
