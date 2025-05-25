@@ -26,6 +26,7 @@ This is a **programing languge**. Learn to **program** in it.
 - **wait x** ( waits x milisecconds )
 - **rect** ( creates a rectangle )
 - **clear** ( clears the screen )
+- **cir** ( creates a circlre with r )
 
   
   HOPE TO ENJOY,
