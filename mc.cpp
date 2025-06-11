@@ -471,5 +471,5 @@ int main()
                 std::cin >> strings[command2];
             }
         }
-    }
-}///
+    Sleep(1000);
+}
