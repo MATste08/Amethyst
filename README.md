@@ -1,4 +1,4 @@
-# amethyst
+# 💜🔮💎 Amethyst
 Rights: **Stefan Matei Necsulescu and Cucuzacu**
 
 This is a **programing languge**. Learn to **program** in it.
