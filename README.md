@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/0639237d-1cc4-46d5-997c-b3f778755401)
+
 # 💜🔮💎 Amethyst
 Rights: **Stefan Matei Necsulescu and Cucuzacu**
 
