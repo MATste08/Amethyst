@@ -1,2 +1,6 @@
-string a = Hello_World!
-write_string a
+string
+a
+=
+Hello_World!
+write_string
+a
