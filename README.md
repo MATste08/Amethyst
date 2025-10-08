@@ -1,6 +1,7 @@
 # 💜🔮💎 Amethyst
 Rights: **Stefan Matei Necsulescu and Cucuzacu**
-**THIS IS THE OFFICIAL AMETHYST PROGRAMMING LANGUEGE**
+
+#**THIS IS THE OFFICIAL AMETHYST PROGRAMMING LANGUEGE**
 
 This is a **programming languge**. Learn to **program** in it.
 
