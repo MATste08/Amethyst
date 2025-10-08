@@ -1,9 +1,9 @@
-# 💜🔮💎 Amethyst
+#CMC
 Rights: **Stefan Matei Necsulescu and Cucuzacu**
 
-#THIS IS THE OFFICIAL AMETHYST PROGRAMMING LANGUEGE
+#THIS IS THE OFFICIAL CMC PROGRAMMING LANGUEGE
 
-**Amethyst** — the ** first programming language that autocorrects**
+**CMC** — the ** first programming language that autocorrects**
 
 
 ____________________________________
@@ -14,7 +14,7 @@ ____________________________________
 
 -Everything eventually turns into **BETA**!
 
--Meet the new **AMETHYST AI**!
+-Meet the new **CMC AI**!
 
 _____________________________________
 
