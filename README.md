@@ -1,5 +1,3 @@
-![image](https://github.com/user-attachments/assets/b832a31b-30ac-473a-8b6a-b03525f196b4)
-
 # 💜🔮💎 Amethyst
 Rights: **Stefan Matei Necsulescu and Cucuzacu**
 **THIS IS THE OFFICIAL AMETHYST PROGRAMMING LANGUEGE**
